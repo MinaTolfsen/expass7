@@ -11,6 +11,7 @@ dependencies {
     implementation("org.hibernate.orm:hibernate-core")
     implementation("jakarta.transaction:jakarta.transaction-api")
     implementation("com.h2database:h2:2.2.220")
+    implementation("org.postgresql:postgresql:42.7.4")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.3")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
